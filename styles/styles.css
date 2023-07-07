@@ -44,6 +44,8 @@ margin-right: 50px;
     font-size: 20px;
 font-style: normal;
 font-weight: 700;
+width: 200px;
+height: 64px;
 
 }
 
@@ -53,9 +55,9 @@ font-weight: 700;
 .header{
 
     background-color: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner{

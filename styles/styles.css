@@ -109,16 +109,26 @@ h2{
 
 
 /* main section starts here */
+main{
 
+max-width: 1140px;
+margin: 100px auto;
+
+}
 /* about section starts */
-.about{
+.section-title{
 padding: 130px;
 border-radius: 10px;
-background: #FFF8F3;
-    margin: 80px 500px;
+
+
 }
 
-.about-description{
+.about-container{
+
+    background: #FFF8F3;
+}
+
+.section-description{
 
     color:  #757575;
 text-align: center;
@@ -137,5 +147,24 @@ font-family: Open Sans;
 font-size: 35px;
 
 font-weight: 700;
+
+}
+
+.about-info-container{
+
+display: flex;
+justify-content: space-around;
+
+}
+
+.about-info{
+
+    text-align: center;
+
+}
+
+#what-do-i-do-description{
+
+padding: 30px 150px;
 
 }

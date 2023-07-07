@@ -1,0 +1,48 @@
+body{
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+nav  {
+
+display: flex;
+
+
+}
+
+
+nav a{
+
+text-decoration : none;
+color: #474747;
+
+}
+nav > ul{
+
+display: flex;
+
+}
+
+nav li{
+
+list-style: none;
+margin-right: 50px;
+
+}
+
+.primary-text{
+
+ 
+    color:#FD6E0A ;
+
+}
+
+.primary-button{
+
+    border-radius: 5px;
+    background: #FD6E0A;
+
+}

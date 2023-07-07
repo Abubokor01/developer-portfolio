@@ -38,7 +38,7 @@ margin-right: 50px;
 }
 
 .primary-button{
-
+    color: white;
     border-radius: 5px;
     background: #FD6E0A;
     font-size: 20px;
@@ -53,23 +53,89 @@ font-weight: 700;
 .header{
 
     background-color: #FFF8F3;
-
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
 
-padding: 30px 30px 30px 150px;
+padding: 30px 30px 0px 150px;
 display: flex;
 align-items: center;
+justify-content: space-between;
+}
+
+.banner-text{
+    color:  #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+   
+    font-weight: 600;
+margin-bottom: 10px;
+    
+}
+
+.banner-title{
+margin-top: 15px;
+    color:  #181818;
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.banner-description{
+margin-top: 20px;
+margin-bottom: 30px;
+color: #757575;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
 }
 
 .banner-pfp{
 
 width: 500px;
-
+margin-top: 20px;
 }
 
 h2{
     font-family: Open Sans;
     font-size: 45px;
+}
+
+
+/* main section starts here */
+
+/* about section starts */
+.about{
+padding: 130px;
+border-radius: 10px;
+background: #FFF8F3;
+    margin: 80px 500px;
+}
+
+.about-description{
+
+    color:  #757575;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px;
+}
+
+h2{
+
+    color:  #181818;
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+
+font-weight: 700;
+
 }
